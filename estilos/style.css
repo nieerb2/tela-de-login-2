@@ -23,7 +23,7 @@ h1{
     text-align: center;
 }
 section#login{
-    background-color: rgb(34, 32, 32);
+    background-color: #222020;
     width: 350px;
     color: white;
     position: absolute;
@@ -32,7 +32,7 @@ section#login{
     left: 50%;
     border-radius: 15px;
     overflow: hidden;
-    transition: width 0.3s, height 0.3s;
+    transition: width 0.4s, height 0.4s;
     
     transition-timing-function: ease;
     transform: translate(-50%,-50%); 
@@ -54,8 +54,9 @@ section#login > div#formlar{
 
 div#formlar > form > a{
     float: right;
-    color: white;
-    font-size: .9em;
+    color: rgba(255, 255, 255, 0.315);
+    font-size: .8em;
+    padding: 2px;
 }
 div#formlar > form > a#cad{
     float: none;
@@ -67,20 +68,34 @@ div#formlar > form > a#cad{
 form{
     padding: 5px;
 }
+div.campo{
+    text-align: center;
+}
 div.campo > label{
+    display: inline-block;
     font-size: 0.8em;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.507);
 }
 
 div.campo > input{
     display: block;
+    color: white;
     background-color: rgb(85, 84, 84);
-    
-    border-radius: 3px;
-    height: 25px;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
     border: none;
     
 }
+div.campo > input:focus-within{
+    color: white;
+}
+
+
 form > input[type=submit]{
+    cursor: pointer;
     display: block;
     margin: auto;
     height: 44px;
@@ -92,6 +107,10 @@ form > input[type=submit]{
     color: white;
     margin-top: 5px;
     width: 100%;
+    
 
 }
-
+form > input[type=submit]:hover{
+    background: #660725;
+    
+ }

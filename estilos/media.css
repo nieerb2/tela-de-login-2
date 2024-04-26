@@ -2,13 +2,84 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login{
-        width: 600px;
+        width: 800px;
         height: 410px;
+        
     }
     section#login > div#foto{
         float: right;
-        width: 40%;
+        width: 60%;
+        height: 100%;
+        border-radius: 0px;
+    }
+    h1{
+        padding: 10px;
+    }
+    section#login > div#formlar{
+        float: left;
+        width:40%;
+        height: 100%;
+         
+    }
+
+    div.campo{
+        text-align: left;
+        display: block;
+        padding-bottom: 10px;
+    }
+    div.campo > input{
+        width: 100%;
+        
+        margin: 0px;
+    }
+    div#formlar > form >a{
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    form > input[type=submit]{
+        margin-bottom: 50px;
+    }
+    
+    
+    
+}
+
+@media screen and (min-width:992px) {
+    section#login{
+        width:90vw;
+        height: 90vh;
+
+    }
+    section#login > div#foto{
+        float: left;
+        width: 50%;
+        height: 100%;
+        border-radius: 0px;
+
+    }
+    section#login > div#formlar{
+        float: right;
+        width: 50%;
         height: 100%;
     }
+    div.campo{
+        text-align: left;
+        display: block;
+        padding-bottom: 10px;
+    }
+    div.campo > input{
+        width: 100%;
+        
+        margin: 0px;
+    }
+    div#formlar > form >a{
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    form > input[type=submit]{
+        margin-bottom: 50px;
+    }
+
+    
     
 }
