@@ -21,7 +21,9 @@ html, body{
 }
 h1{
     text-align: center;
+    
 }
+
 section#login{
     background-color: #222020;
     width: 350px;
