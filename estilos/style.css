@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
-
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 
 :root{
-    --fonte-destaque:  "Source Sans 3", sans-serif;
+    --fonte-destaque:  'Source Sans 3', sans-serif;
+    --fonte-des2: 'Poppins', sans-serif;
 }
 
 *{
@@ -26,10 +27,11 @@ h1{
 
 section#login{
     background-color: #222020;
-    width: 350px;
+    width: 300px;
     color: white;
+    
     position: absolute;
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-des2);
     top: 50%;
     left: 50%;
     border-radius: 15px;
@@ -85,6 +87,7 @@ div.campo > input{
     color: white;
     background-color: rgb(85, 84, 84);
     margin: auto;
+    text-indent: 0.7em;
     width: 100%;
     border-radius: 5px;
     height: 35px;
